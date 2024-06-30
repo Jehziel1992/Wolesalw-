@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Supply Solutions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Nexus Supply Solutions</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Sobre nosotros</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="banner">
+            <h2>Distribuidor mayorista de alimentos, bebidas y partes para motos y bicicletas</h2>
+            <p>Suministramos a empresas de toda América Latina.</p>
+            <a href="#" class="btn">Contáctenos</a>
+        </section>
+        <section id="products">
+            <h2>Nuestros productos</h2>
+            <div class="product-container">
+                <div class="product">
+                    <img src="img/producto1.jpg" alt="Producto 1">
+                    <h3>Nombre del producto 1</h3>
+                    <p>Descripción del producto 1.</p>
+                </div>
+                <div class="product">
+                    <img src="img/producto2.jpg" alt="Producto 2">
+                    <h3>Nombre del producto 2</h3>
+                    <p>Descripción del producto 2.</p>
+                </div>
+                </div>
+        </section>
+        <section id="about-us">
+            <h2>Sobre nosotros</h2>
+            <p>Somos una empresa con amplia experiencia en la distribución mayorista de alimentos, bebidas y partes para motos y bicicletas. Ofrecemos productos de alta calidad a precios competitivos.</p>
+            <p>Nuestro equipo de profesionales está comprometido a brindar un excelente servicio al cliente. Nos esforzamos por satisfacer las necesidades de nuestros clientes y superar sus expectativas.</p>
+        </section>
+        <section id="contact">
+            <h2>Contacto</h2>
+            <form action="#">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Nexus Supply Solutions</p>
+    </footer>
+</body>
+</html>
